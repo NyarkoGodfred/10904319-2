@@ -1,0 +1,82 @@
+body{
+    background-color:rgb(200, 194, 255);
+    color: rgb(70, 70, 70);
+    margin: 0;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow:rgb(70, 70, 70);
+}
+
+#about, #visit, .block, #form {
+    margin: 30px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-width: 2px !important;
+    border-color:rgb(6, 0, 90);
+    border-style: ridge;
+}
+
+.one > p{
+    text-align: justify;
+}
+
+.capit {
+    text-transform: capitalize;
+}
+
+h1, h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 2em;
+    padding: 5px;
+    color:rgb(241, 240, 255) !important;
+    background-color: #030453;
+}
+
+/* Center image */
+#image {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#more {
+    background-color: orange;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-weight:900;
+    font-size: 20px;
+    font-variant: small-caps;
+    margin:20px 0;
+}
+
+#more > a:link {
+    text-decoration: none;
+    color: hsla(0, 0%, 100%, 0.979);
+    font-family: monospace;
+}
+
+#more > a:visited {
+    color: white;
+}
+
+#more > a:hover {
+    color:rgb(240, 60, 60);
+    font-variant: normal;
+}
+
+/* Contacts Page */
+#form {
+    width: 700px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-size: 20px;
+}
+
+#submit {
+    background-color: orange !important;
+}
